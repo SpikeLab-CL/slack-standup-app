@@ -1,0 +1,13 @@
+Flask>=1.0
+requests
+google-auth
+google-auth-httplib2
+google-cloud-core
+google-api-python-client
+proto-google-cloud-datastore-v1
+google-cloud-datastore==1.6.0
+six==1.11.0
+grpcio
+gcloud==0.18.1
+googleapis_common_protos==1.2.0
+gunicorn

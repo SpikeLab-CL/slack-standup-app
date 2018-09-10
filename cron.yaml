@@ -1,0 +1,25 @@
+cron:
+- description: Ask to each user what is going to do today
+  url: /postDaily
+  target: standup-app
+  schedule: every mon,tue,wed,thu,fri 12:00
+
+- description: Post the daily standup message in slack
+  url: /postDailyStandUp
+  target: standup-app
+  schedule: every mon,tue,wed,thu,fri 14:00
+
+- description: create every day entry
+  url: /createDailyEntry
+  target: standup-app
+  schedule: every mon,tue,wed,thu,fri 04:10
+
+- description: update members from the workspace
+  url: /addMembers
+  target: standup-app
+  schedule: every mon,tue,wed,thu,fri,sat,sun 04:00
+
+- description: warm the machine before the daily standup
+  url: /warm
+  target: standup-app
+  schedule: every mon,tue,wed,thu,fri 11:55
