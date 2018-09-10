@@ -1,6 +1,6 @@
 ### Google AppEngine Slack Standup Application
 
- **GAE Standup App** is a small application developed to help our team in the stand-up meetings. The bot send messages to the users in the workspace with questions defined by our team.
+ **GAE Standup App** is a small application developed to help our team in the stand-up meetings. The bot send messages to the users in the workspace with questions defined by your team.
 
 ![Alt text](images/usage1.png?raw=false "Usage1")
 
